@@ -1,0 +1,55 @@
+.container {
+    font-family: 'AR One Sans', sans-serif;
+}
+
+.imagem-container { 
+    text-align: left;
+}
+
+body { 
+    background-color: #ffffff;
+    min-height: 100vh;
+    font-family: 'AR One Sans', sans-serif;
+}
+
+/* Mude as coisas da navBar aqui!*/
+
+.navbar-lateral { /* Aqui eu criei para controlar o tamanho, cor e algumas coisas da Navbar e das bolinhas*/
+    background-color: #d9cac6;
+    color: #7a736e; 
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+}
+
+.navbar-lateral a {
+    color: #7a736e;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.navbar-lateral a:hover {
+    background-color: #555;
+}
+
+.text-center {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.imgmilena {
+    border-radius: 50%;
+    border: 5px solid #7a736e;
+    box-shadow: 0px 0px 10px rgba(196, 196, 196, 0.3);
+    max-width: 250px;
+    height: auto;
+}
+
+.redes-sociais a {
+    display: inline-block;
+    margin-right: 10px;
+}
